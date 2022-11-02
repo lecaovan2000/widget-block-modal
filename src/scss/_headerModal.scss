@@ -1,0 +1,21 @@
+.headerModal {
+  width: 100%;
+  &__group-btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__btn-select {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:hover {
+      border-bottom: 2px solid #456bd9;
+    }
+  }
+}
+.active {
+  border-bottom: 2px solid #456bd9;
+}

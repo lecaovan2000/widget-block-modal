@@ -1,0 +1,54 @@
+.fromModal {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 900px;
+  margin: 0px auto;
+  z-index: 87;
+
+  & .ant-modal-body {
+    width: 100%;
+  }
+
+  form {
+    row-gap: 20px;
+  }
+  .ant-modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 12px;
+
+    & button {
+      width: 170px;
+      height: 40px;
+      border-radius: 8px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ant-btn {
+      background: #f5f5f5;
+      border: 1px solid #f5f5f5;
+
+      &:hover {
+        color: #1768b2;
+        border-color: #1768b2;
+      }
+    }
+    .ant-btn-primary {
+      background: #1768b2;
+      color: #ffffff;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    .ant-btn-link {
+      width: 100px;
+      background: transparent;
+      border: 0;
+    }
+  }
+}
